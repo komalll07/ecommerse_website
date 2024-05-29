@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>amazon</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/signin.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet"type="text/css" href="css/style.css">
+	
+</head>
+<body>
+<header>
+	<div class="navbar">
+		<div class="nav-logo border">
+			<div class="logo">
+			</div>
+		</div>
+		<div class="nav-add border">
+			<p class="add-1">deliver to</p>
+			<div class="add-icon">
+				<i class="fa-solid fa-location-dot "></i>
+				<p class="add-2">india</p>
+			</div>
+		</div>
+			<div class="search-area ">
+				<div class="nav-fill">
+					<select id="all">
+						<option>all</option>
+					</select>
+				</div>
+					<input  type="text" name="search-items" placeholder="Search Amazon" class="items" >
+				
+				<div class="search-icon">
+					<i class="fa-solid fa-magnifying-glass sign" ></i>
+				</div>
+			</div>
+			<div class="country border">
+				<i class="fa-regular fa-flag flag"></i>
+				<select id="ind">
+					<option>IND</option>
+				</select>
+			</div>
+			
+			<div class="hellow border" id="signin-section">
+				<p id=hsign>hellow,sign in</p>
+				<select id=as>
+					<option>Account & list</option>
+				</select>
+				
+			</div>
+		
+			
+
+
+			<div class="ro border">
+				<p id="returns">returns</p>
+				<p id="orders">&Orders</p>
+			</div>
+			<a href="cart.html">
+			<div  class="cart border" >
+				<i class="fa-solid fa-cart-shopping cartsym" ></i>
+				<p id="carts">0</p>
+			</div>
+		</a>
+
+</div>
+<div class="signincontainer">
+<div class="container" id="container">
+	<div class="form-container sign-up">
+		<form>
+			<h1>Create Account</h1>
+			<div class="social-icons">
+				<a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+				<a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+				<a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+				<a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+			</div>
+			<span>or use your email for registeration</span>
+			<input type="text" placeholder="Name">
+			<input type="email" placeholder="Email">
+			<input type="password" placeholder="Password">
+			<button>Sign Up</button>
+		</form>
+	</div>
+	<div class="form-container sign-in">
+		<form>
+			<h1>Sign In</h1>
+			<div class="social-icons">
+				<a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+				<a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+				<a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+				<a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+			</div>
+			<span>or use your email password</span>
+			<input type="email" placeholder="Email">
+			<input type="password" placeholder="Password">
+			<a href="#">Forget Your Password?</a>
+			<button>Sign In</button>
+		</form>
+	</div>
+	<div class="toggle-container">
+		<div class="toggle">
+			<div class="toggle-panel toggle-left">
+				<h1>Welcome Back!</h1>
+				<p>Enter your personal details to use all of site features</p>
+				<button class="hidden" id="login">Sign In</button>
+			</div>
+			<div class="toggle-panel toggle-right">
+				<h1>Hello, Friend!</h1>
+				<p>Register with your personal details to use all of site features</p>
+				<button class="hidden" id="register">Sign Up</button>
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+</div>
+
+
+
+
+
+
+<div class="panel">
+	<div class="all border" id="all_border1">
+		<i class="fa-solid fa-bars"></i>
+		All
+	</div>
+	<div class="option">
+	<div class="lists  ">
+		<p class="border">Todays Deals</p>
+		<p class="border"> Customer service</p>
+		<p class="border">Registry</p>
+		<p class="border">Gifts Cards</p>
+		<p>Sell</p>
+	</div>
+	</div>
+	<div class="lasts border1">
+		<i class="fa-brands fa-amazon"></i>
+		<p>
+			shopping made easy|Download the App
+		</p>
+	</div>
+</div>
+	<div class="slidebar_section" id="slidebar_section_id">
+        <div class="slidebar_left_part">
+			<div class="slidebar_top">
+			<i class="fa-solid fa-circle-user"></i>
+			<h2>Hellow, <span>sign in</span></h2>
+		</div>
+		<div class="wrapper">
+		<div class="slidebar_items">
+			<h2>Trending</h2>
+			<p>Best seller</p>
+			<p> New Releases</p>
+			<p> Movers and shakers</p>
+		</div>
+		<div class="slidebar_items">
+			<h2>Digital content And Devices</h2>
+			<p>Echo & Alexa</p>
+			<p> Fire TV</p>
+			<p> Kindle E-readers & e-books</p>
+			<p> Audible Audiobooks</p>
+			<p> Amazon Prime video</p>
+			<p> Amazon prime music</p>
+
+		</div>
+		<div class="slidebar_items">
+			<h2>Shop By Category</h2>
+			<p>Mobiles,Computers</p>
+			<p> TV,Appliances,Electronics</p>
+			<p> Men's FASHION</p>
+			<p> Women's Fashion</p>
+			
+		</div>
+		<div class="slidebar_items">
+			<h2>Programs & Features</h2>
+			<p>Amazon Pay</p>
+			<p> Gift Cards & Mobile Recharges</p>
+			<p> Amazon Launchpad</p>
+			<p> Handlooms And Handicrafts</p>
+			
+		</div>
+		<div class="slidebar_items">
+			<h2>Help & Settings</h2>
+			<p>Your Account</p>
+			<p> Customers services</p>
+			<p> sign in</p>		
+		</div>
+	</div>
+		</div>
+
+	<button id="closebutton">
+		<i class="fa-solid fa-xmark"></i>
+	</button>
+	</div>
+</header>
+<section>
+	
+       <div class="image_container">
+	   <div class="image_list">
+		    <div class="imageno">
+             <img src="img\hero_image (1).jpg" alt="image1">
+	        </div>
+			<div class="imageno">
+				<img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Dec_2023/3000X1200BAU_Dec._CB587127632_.jpg" alt="image1" height="600">
+			   </div>
+			   <div class="imageno">
+				<img src="https://images-eu.ssl-images-amazon.com/images/G/31/img15/4th/sept/unrechero/8thslot/Tws_Tallhero_3000x1200._CB596103422_.jpg" alt="image2">
+			   </div>
+			   <div class="imageno">
+				<img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/devjyoti/GW/Uber/Nov/D103625178_DesktopTallHero_3000x1200._CB574597993_.jpg" alt="image1" >
+			   </div>
+			   <div class="imageno">
+				<img src="https://images-eu.ssl-images-amazon.com/images/G/31/img2020/img21/apparelGW/decatf23/eoss/unrec/oneweekly/MA_3000._CB586386964_.jpg" alt="image1">
+			   </div>
+			   
+	</div>
+	<div class="image_btn_containr">
+		<div class="button_slider border3" id="slide-btn-left"><i class="fa-solid fa-angle-left"></i></div>
+		<div class="button_slider border3" id="slide-btn-right"><i class="fa-solid fa-angle-right"></i></div>
+	</div>
+</div>
+
+		<div class="chote">
+		you are on amazon.com. you can also shop on amazon india for million of products with fast local delivery.<a href="amazon.in"> click here to go to amazon</a>
+		</div>
+
+</section>
+<div class="boxes">
+	<div class="box"> 
+<span class="text">Appliances for your home | Up to 55% off</span>
+<div class="box1">
+	<div class="box11">
+	<div class="box11-img" style="background-image: url('img/ft1.jpg'); background-size: cover;">
+	</div>
+	<span class="text-1">ft1cp</span>
+</div>
+	<div class="box11">
+	<div class="box11-img" style="background-image: url('img/ft2.jpg'); background-size: cover;">
+	</div>
+	<span class="text-1">ft1cp</span>
+</div>
+	<div class="box11">
+	<div class="box11-img" style="background-image: url('img/ft3.jpg'); background-size: cover;">
+	</div>
+	<span class="text-1">ft1cp</span>
+</div>
+	<div class="box11"> 
+	<div class="box11-img" style="background-image: url('img/ft4.jpg'); background-size: cover;">
+	</div>
+	<span class="text-1">ft1cp</span>
+</div>
+</div>
+<span #id="seealso"> <a href="seemore"> see also</a> </span>
+</div>
+
+<div class="box">
+	<span class="text">Keep Shoping for</span>
+	<div class="box-img" style="background-image: url('img/box5_image.jpg'); background-size: cover;">
+	</div>
+	</div>
+<div class="box">box3
+<span class="text">Appliances for your home | Up to 55% off</span>
+<div class="box1">
+	<div class="box11">
+		<div class="box11-img" style="background-image: url('img/bt1.jpg'); background-size: cover;">
+	</div>
+	</div>
+	<div class="box11">
+		<div class="box11-img" style="background-image: url('img/bt2.jpg'); background-size: cover;">
+	</div>
+	</div>
+	<div class="box11">
+		<div class="box11-img" style="background-image: url('img/bt3.jpg'); background-size: cover;">
+	</div>
+	</div>
+	<div class="box11"> <div class="box11-img" style="background-image: url('img/bt4.jpg'); background-size: cover;">
+	</div></div>
+</div>
+<span #id="seealso"> <a href="seemore"> see also</a> </span>
+
+</div>
+	<div class="box">
+<span class="text">Keep Shoping for</span>
+	<div class="box-img" style="background-image: url('img/box2_image.jpg'); background-size: cover;">
+	</div>
+	</div>
+	<div class="box #box5"> 
+	<span class="text">Appliances for your home | Up to 55% off</span>
+<div class="box1">
+	<div class="box11">
+		<div class="box11-img" style="background-image: url('img/bx51.jpg'); background-size: cover;">
+	</div>
+	</div>
+	<div class="box11">
+		<div class="box11-img" style="background-image: url('img/bx52.jpg'); background-size: cover;">
+	</div>
+	</div>
+	<div class="box11">
+		<div class="box11-img" style="background-image: url('img/bx53.jpg'); background-size: cover;">
+	</div>
+	</div>
+	<div class="box11"> 
+		<div class="box11-img" style="background-image: url('img/bx54.jpg'); background-size: cover;">
+	</div>
+	</div>
+</div>
+<span #id="seealso"> <a href="seemore"> see also</a> </span>
+</div>
+	<div class="box">box6
+
+		<span class="text">Appliances for your home | Up to 55% off</span>
+<div class="box1">
+	<div class="box11">
+		<div class="box11-img" style="background-image: url('img/bx61.jpg'); background-size: cover;">
+	</div>
+	</div>
+	<div class="box11">
+		<div class="box11-img" style="background-image: url('img/bx62.jpg'); background-size: cover;">
+	</div>
+	</div>
+	<div class="box11">
+		<div class="box11-img" style="background-image: url('img/bt1.jpg'); background-size: cover;">
+	</div>
+	</div>
+	<div class="box11"> 
+	<div class="box11-img" style="background-image: url('img/bt1.jpg'); background-size: cover;">
+	</div>
+</div>
+</div>
+<span #id="seealso"> <a href="seemore"> see also</a> </span>
+	</div>
+	<div class="box">
+	<div class="boxfll-img" style="background-image: url('img/box6_image.jpg'); background-size: cover; height: 380px;width: 100%;">
+	</div>
+</div>
+	<div class="box">
+	<div class="boxfll-img" style="background-image: url('img/box7_image.jpg'); background-size: cover; height: 380px;width: 100%;">
+	</div>
+</div>
+	
+
+</div>
+
+<div class="class">
+	<div class="products">
+		
+	</div>
+
+
+		<div class="today_deal_btn_container">
+		<button class="today_deal_btn" id="tday_deal_prev_btn" >
+			<i class="fa-solid fa-angle-left"></i>
+		</button>
+<button class="today_deal_btn" id="tday_deal_next_btn">
+	<i class="fa-solid fa-angle-right"></i>
+</button>
+		</div>
+	
+		
+	
+	
+
+</div>
+	
+<div class="Todays box">
+	<p class="text">todays deal ></p>
+	<div class="tdybox">
+	<div class="box">
+		<div class="boxunderbox" style="background-image: url('https://m.media-amazon.com/images/I/91dQR2032eL.AC_UL480_FMwebp_QL65.jpg');">
+		
+		</div>
+			<div class="info">
+			<a href="#"> <span class="off" style="background-color: red;color: white; font-size: 1.2rem; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center">84% off</span>  great indian festival</a>
+			<br>
+			<a href="#"> ₹79</a>
+			<p>right light for decoration</p>
+		   </div>
+</div>
+	<div class="box">
+	<div class="boxunderbox">
+		
+	</div>
+	    <div class="info">
+		<a href="#"> <span class="off" style="background-color: red;color: white; font-size: 1.2rem; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center">84% off</span>  great indian festival</a>
+		<br>
+		<a href="#"> ₹79</a>
+		<p>right light for decoration</p>
+	   </div>
+	</div>
+	
+
+
+	<div class="box">
+		<div class="boxunderbox" style="background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img21/GW/HERO/P3/B/Headphone_v2_Desktop_Cat_card_1x.SY304_CB575149386.jpg');">
+		
+		</div>
+		<div class="info">
+			<a href="#"> <span class="off" style="background-color: red;color: white; font-size: 1.2rem; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center">84% off</span>  great indian festival</a>
+			<br>
+			<a href="#"> ₹79</a>
+			<p>right light for decoration</p>
+		   </div>
+
+	</div>
+	<div class="box">
+		<div class="boxunderbox" style="background-image: url('https://m.media-amazon.com/images/I/91-eW9RmGRL.AC_UL480_FMwebp_QL65.jpg');">
+		
+		</div>
+			<div class="info">
+			<a href="#"> <span class="off" style="background-color: red;color: white; font-size: 1.2rem; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center">84% off</span>  great indian festival</a>
+			<br>
+			<a href="#"> ₹79</a>
+			<p>right light for decoration</p>
+		   </div>
+
+	</div>
+	<div class="box">
+		<div class="boxunderbox" style="background-image: url('https://m.media-amazon.com/images/I/814ZCJUd7ZL.AC_UL480_FMwebp_QL65.jpg') ;background-size: cover; width:13rem;text-align: center;">
+		
+		</div>
+			<div class="info">
+			<a href="#"> <span class="off" style="background-color: red;color: white; font-size: 1.2rem; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center">84% off</span>  great indian festival</a>
+			<br>
+			<a href="#"> ₹79</a>
+			<p>right light for decoration</p>
+		   </div>
+	</div>
+
+</div>
+</div>
+
+
+
+<div class="links box">
+	<p class="text textbada">todays deal ></p>
+	<div class="flexcontainer">
+<div class="image1">
+	<img src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/f0e2df183125413.Y3JvcCw1NDY0LDQyNzMsMCwyMTA5.jpg" alt="girlimage" s>
+</div>
+<div class="image2">
+	<img src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/105c03183132233.Y3JvcCw2OTg1LDU0NjQsODQ3LDA.jpg" alt="diwali" >
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+<div class="Todays box">
+	<p class="text">todays deal ></p>
+	<div class="tdybox">
+	<div class="box">
+		<div class="boxunderbox" style="background-image: url('https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/2e998a183563459.Y3JvcCw4NjAsNjcyLDAsMTE1MQ.png');">
+		
+		</div>
+		
+	
+			<div class="info">
+			<a href="#"> <span class="off" style="background-color: red;color: white; font-size: 1.2rem; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center">84% off</span>  great indian festival</a>
+			<br>
+			<a href="#"> ₹79</a>
+			<p>right light for decoration</p>
+		   </div>
+	</div>
+	<div class="box"><div class="boxunderbox" style="background-image: url('https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/2e998a183563459.Y3JvcCw4NjAsNjcyLDAsMTE1MQ.png');">
+		
+		</div>
+		
+	
+			<div class="info">
+			<a href="#"> <span class="off" style="background-color: red;color: white; font-size: 1.2rem; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center">84% off</span>  great indian festival</a>
+			<br>
+			<a href="#"> ₹79</a>
+			<p>right light for decoration</p>
+		   </div></div>
+	<div class="box"><div class="boxunderbox" style="background-image: url('https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/1801df182251211.Y3JvcCw4MDgsNjMyLDAsMA.png');">
+		
+		</div>
+		
+	
+			<div class="info">
+			<a href="#"> <span class="off" style="background-color: red;color: white; font-size: 1.2rem; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center">84% off</span>  great indian festival</a>
+			<br>
+			<a href="#"> ₹79</a>
+			<p>right light for decoration</p>
+		   </div></div>
+	<div class="box"><div class="boxunderbox" style="background-image: url('https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/2e998a183563459.Y3JvcCw4NjAsNjcyLDAsMTE1MQ.png');">
+		
+		</div>
+		
+	
+			<div class="info">
+			<a href="#"> <span class="off" style="background-color: red;color: white; font-size: 1.2rem; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center">84% off</span>  great indian festival</a>
+			<br>
+			<a href="#"> ₹79</a>
+			<p>right light for decoration</p>
+		   </div></div>
+	<div class="box"><div class="boxunderbox" style="background-image: url('https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/2e998a183563459.Y3JvcCw4NjAsNjcyLDAsMTE1MQ.png');">
+		
+		</div>
+		
+	
+			<div class="info">
+			<a href="#"> <span class="off" style="background-color: red;color: white; font-size: 1.2rem; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center">84% off</span>  great indian festival</a>
+			<br>
+			<a href="#"> ₹79</a>
+			<p>right light for decoration</p>
+		   </div></div>
+
+
+</div>
+</div>
+<footer>
+	<div class="footer1">
+	<div class="bcktop">
+		<span>back to top</span>
+	</div>
+	<div style="margin-top: 49px;"></div>
+	<div class="container3 ">
+	<div style="height: 251px;width: 200px;">
+	<ul>
+<li id="li1">Get to Know Us</li>
+<li>About Us</li>
+<li>Careers</li>
+<li>Press Releases</li>
+<li>Amazon Science</li>
+</ul>
+
+</div>
+		<div style="height: 251px;width:180px;">
+		<ul>
+<li id="li1">Connect with Us</li>
+<li>Facebook</li>
+
+<li>Twitter</li>
+<li>Instagram</li>
+
+</ul>
+	</div>
+	<div style="height: 260px;">
+		<ul>
+<li id="li1">Make Money with Us</li>
+<li>Sell on Amazon</li>
+<li>Sell under Amazon Accelerator</li>
+<li>Protect and Build Your Brand</li>
+<li>Become an Affiliate</li>
+<li>Fulfilment by Amazon</li>
+<li>Advertise Your Products</li>
+<li>Amazon Pay on Merchants</li>
+</ul>
+</div>
+		
+	<div>
+		<ul>
+		<li id="li1">Let Us Help You</li>
+<li>COVID-19 and Amazon</li>
+<li>Your Account</li>
+<li>Returns Centre</li>
+<li>100% Purchase Protection</li>
+<li>Amazon App Download</li>
+<li>Help</li>
+</ul>
+	</div>
+	</div>
+
+	<div class="nav-footerline" style="height:50px; border: 2px solid white; margin-top: 30px;"></div>
+	<div class="footer3">
+		<div class="logo"></div>
+	</div>
+	<div class="footer4">
+		<p> Australia Brazil Canada China France Germany Italy Japan Mexico Netherlands Poland Singapore Spain Turkey United Arab Emirates</p>
+
+	</div>
+	<div class="footer5">
+		<div class="pages">
+			<a> condition of use</a>
+			<a> privacy Notice</a>
+			<a> your Ads privacy choices</a>
+		</div>
+		<div class="copyright">
+			© 1996-2023, Amazon.com, Inc. or its affiliates
+		</div>
+	</div>
+
+</div>
+</footer>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<script src="js/index.js"></script>
+<script src="public/js/signin.js"></script>
+</body>
+</html>]

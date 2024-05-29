@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>amazon</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<header>
+	<div class="navbar">
+		<div class="nav-logo border">
+			<div class="logo">
+			</div>
+		</div>
+		<div class="nav-add border">
+			<p class="add-1">deliver to</p>
+			<div class="add-icon">
+				<i class="fa-solid fa-location-dot "></i>
+				<p class="add-2">india</p>
+			</div>
+		</div>
+			<div class="search-area ">
+				<div class="nav-fill">
+					<select id="all">
+						<option>all</option>
+					</select>
+				</div>
+					<input  type="text" name="search-items" placeholder="Search Amazon" class="items" >
+				
+				<div class="search-icon">
+					<i class="fa-solid fa-magnifying-glass sign" ></i>
+				</div>
+			</div>
+			<div class="country border">
+				<i class="fa-regular fa-flag flag"></i>
+				<select id="ind">
+					<option>IND</option>
+				</select>
+			</div>
+			<div class="hellow border">
+				<p id=hsign>hellow,sign in</p>
+				<select id=as>
+					<option>Account & list</option>
+				</select>
+			</div>
+			<div class="ro border">
+				<p id="returns">returns</p>
+				<p id="orders">&Orders</p>
+			</div>
+           <a href="cart.html">
+			<div class="cart border" >
+				<i class="fa-solid fa-cart-shopping cartsym" ></i>
+				<p id="carts">0</p>
+            </div>
+        </a>
+</div>
+
+
+ <!-- cart page -->
+ <div class="cart_page">
+    <div class="shopping-cart" id="shopping_cart"></div>
+    <div class="label" id="label"></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="js/cart.js"></script> 
+<script src="js/index.js"></script>
+
+</body>
+</html>
